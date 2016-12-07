@@ -11,7 +11,7 @@
 </style>
 </head>
 <body style="background-color:green;">
-<h1 <bold> Welcome to nginx on Debian!</h1>
+<h1>Welcome to nginx on Debian!</h1>
 <p style="color:red;"> yo yo yo this is another test edit using the HTML tutorials I'm working on
 check this link out <a href="http://www.organicdesign.co.nz"> OD </a>  </p> 
 <p>For online documentation and support please refer to
