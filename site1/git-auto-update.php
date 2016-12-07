@@ -6,5 +6,5 @@ if( array_key_exists( 'HTTP_X_HUB_SIGNATURE', $_SERVER ) ) {
         if( $sig === "sha1=$hmac" ) {
                 $repo = json_decode( $body )->repository->name;
                 exec( "cd /var/www/cy.rusty.space && sudo git pull --no-edit" );
-        }
+        } else die( 'wrong pwd' );
 }
