@@ -5,6 +5,6 @@ if( array_key_exists( 'HTTP_X_HUB_SIGNATURE', $_SERVER ) ) {
         $hmac = hash_hmac( 'sha1', $body, file_get_contents( '/var/www/git-update-secret' ) );
         if( $sig === "sha1=$hmac" ) {
                 $repo = json_decode( $body )->repository->name;
-                exec( "cd /var/www/cy.rusty.space && git pull --no-edit" );
+                exec( "cd /var/www/cy.rusty.space && sudo git pull --no-edit" );
         }
 }
