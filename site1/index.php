@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Welcome to nginx on Debian!</title>
+<title>Welcome to CYRUSTY nginx on Debian!</title>
 <style>
     body {
 	background-image: url("http://blog.moltenstore.com/wp-content/uploads/2016/02/jpX5JMB.jpg");
@@ -12,7 +12,7 @@
 </style>
 </head>
 <body>
-<h1>Welcome to nginx on Debian!</h1>
+<h1>Welcome to nginx on Debian Cyrustys site 1!!</h1>
 <p style="color:red;"> yo yo yo this is another test edit using the HTML tutorials I'm working on
 check this link out <a href="http://www.organicdesign.co.nz"> OD </a>  </p> 
 <p>For online documentation and support please refer to
