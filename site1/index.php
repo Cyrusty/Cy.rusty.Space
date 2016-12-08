@@ -4,13 +4,14 @@
 <title>Welcome to nginx on Debian!</title>
 <style>
     body {
+	background-image: url("http://blog.moltenstore.com/wp-content/uploads/2016/02/jpX5JMB.jpg");
         width: 35em;
         margin: 0 auto;
         font-family: Tahoma, Verdana, Arial, sans-serif;
     }
 </style>
 </head>
-<body style="background-color:green;">
+<body>
 <h1>Welcome to nginx on Debian!</h1>
 <p style="color:red;"> yo yo yo this is another test edit using the HTML tutorials I'm working on
 check this link out <a href="http://www.organicdesign.co.nz"> OD </a>  </p> 
