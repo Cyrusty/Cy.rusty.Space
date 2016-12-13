@@ -16,7 +16,7 @@
 <p style="color:red;"> yo yo yo this is another test edit using the HTML tutorials I'm working on
 check this link out <a href="http://www.organicdesign.co.nz"> OD </a>  </p> 
 <?php
-$txt = "organicdesign.co.nz";
+$txt = "www.organicdesign.co.nz";
 echo "I post my latest lessons to $txt";
 ?>
 
