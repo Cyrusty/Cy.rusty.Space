@@ -18,8 +18,12 @@ check this link out <a href="http://www.organicdesign.co.nz"> OD </a>  </p>
 <?php
 $txt = "<a href='www.organicdesign.co.nz'>this link</a>";
 echo "I post my latest lessons to $txt";
+$x = "NARAN";
+echo $x;
+
 ?>
 
+<!-- a comment for naran naran if he ever reads it -->
 <p>For online documentation and support please refer to
 <a href="http://nginx.org/">nginx.org</a></p>
 
