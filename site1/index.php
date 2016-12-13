@@ -22,7 +22,9 @@ echo "I post my latest lessons to $txt";
 $x = "NARAN";
 echo "$x $x $x $x $x";
 $num = 963;
-echo $num*$num;
+$num2 = $num + $num;
+echo $num * $num + $num;
+echo "     $num2";
 ?>
 
 <!-- a comment for naran naran if he ever reads it -->
