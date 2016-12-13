@@ -15,6 +15,11 @@
 <h1>Welcome to nginx on Debian Cyrustys site 1!!</h1>
 <p style="color:red;"> yo yo yo this is another test edit using the HTML tutorials I'm working on
 check this link out <a href="http://www.organicdesign.co.nz"> OD </a>  </p> 
+<?php
+$txt = "www.organicdesign.co.nz";
+echo "I post my latest lessons to $txt"; on Cyrusty's page
+?>
+
 <p>For online documentation and support please refer to
 <a href="http://nginx.org/">nginx.org</a></p>
 
