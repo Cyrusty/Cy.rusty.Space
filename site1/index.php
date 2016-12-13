@@ -20,7 +20,9 @@ $txt = "<a href='www.organicdesign.co.nz'>this link</a>";
 echo "I post my latest lessons to $txt";
 
 $x = "NARAN";
-echo "$x$x$x$x$x";
+echo "$x $x $x $x $x";
+$num = 963;
+echo $num*$num;
 ?>
 
 <!-- a comment for naran naran if he ever reads it -->
