@@ -14,7 +14,7 @@
 <body>
 <h1>Welcome to nginx on Debian Cyrustys site 1!!</h1>
 <?PHP
-echo "Your IP is ";
+echo "Your IP address is ";
 echo $_SERVER['REMOTE_ADDR'];
 
 ?>
