@@ -13,6 +13,11 @@
 </head>
 <body>
 <h1>Welcome to nginx on Debian Cyrustys site 1!!</h1>
+<?
+
+echo $_SERVER["REMOTE_ADDR"];
+
+?>
 <p style="color:red;"> yo yo yo this is another test edit using the HTML tutorials I'm working on
 check this link out <a href="http://www.organicdesign.co.nz"> OD </a>  </p> 
 <?php
@@ -21,8 +26,9 @@ echo "I post my latest lessons to $txt";
 
 $x = "NARAN";
 echo "$x $x $x $x $x";
+
 $num = 963;
-$num2 = $num + $num;
+$num2 = $num * 2;
 echo $num * $num + $num;
 echo "     $num2";
 ?>
