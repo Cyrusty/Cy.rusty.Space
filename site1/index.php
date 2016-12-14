@@ -14,8 +14,8 @@
 <body>
 <h1>Welcome to nginx on Debian Cyrustys site 1!!</h1>
 <?PHP
-
-Your IP address is echo $_SERVER['REMOTE_ADDR'];
+echo "Your IP is";
+echo $_SERVER['REMOTE_ADDR'];
 
 ?>
 <p style="color:red;"> yo yo yo this is another test edit using the HTML tutorials I'm working on
