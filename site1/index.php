@@ -22,7 +22,9 @@ check this link out <a href="http://www.organicdesign.co.nz"> OD </a>  </p>
 echo "<h2>PHP wtf PHP arrrrghhhh</h2>";
 $txt = "<a href='https://www.organicdesign.co.nz/User:Cyrusty'>this link</a>";
 $x = "NARAN";
-echo "I post my latest lessons to $txt " . "$x $x $x $x $x $x $x $x $x $x $x $x $x $x $x". "<br>" "how do I get a complete word count of my NARANS without typing all of them in..." . "<br>" str_word_count("NARAN");
+echo "I post my latest lessons to $txt " . "$x $x $x $x $x $x $x $x $x $x $x $x $x $x $x". "how do I get a complete word count of my NARANS without typing all of them in...";
+echo "<br>"
+echo str_word_count("NARAN")
 echo "<br>";
 $y = "I cant sort find out how to make the IP <b>BOLD</b>!!";
 echo "<br>";
