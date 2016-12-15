@@ -24,6 +24,9 @@ echo "I post my latest lessons to $txt ";
 
 $x = "NARAN";
 echo "$x $x $x $x $x $x $x $x $x $x $x $x $x $x $x";
+?>
+
+<?php
 echo str_word_count("NARAN");
 ?>
 
