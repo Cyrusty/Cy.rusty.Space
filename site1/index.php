@@ -24,7 +24,7 @@ $x = "NARAN";
 echo "I post my latest lessons to $txt " . "$x $x $x $x $x $x $x $x $x $x $x $x $x $x $x";
 echo "<br>";
 echo $y = "I cant sort find out how to make the IP BOLD!!";
-echo $x $y;
+echo $x + $y;
 ?>
 
 <!-- a comment for naran naran if he ever reads it -->
