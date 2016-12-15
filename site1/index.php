@@ -1,8 +1,4 @@
-<?php
-// Display errors
-ini_set("display_errors", "on");
-ini_set('error_reporting', E_ALL);
-?><!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <title>Welcome to CYRUSTY nginx on Debian!</title>
