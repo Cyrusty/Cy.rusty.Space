@@ -14,7 +14,7 @@
 <body>
 <h1>Welcome to nginx on Debian Cyrustys site 1!!</h1>
 <?php
-echo "Your IP address is " . $_SERVER ['REMOTE_ADDR'];
+echo "Your IP address is " . "<strong> $_SERVER ['REMOTE_ADDR'];</strong>
 ?>
 <p style="color:red;"> yo yo yo this is another test edit using the W3school tutorials I'm working on
 check this link out <a href="http://www.organicdesign.co.nz"> OD </a>  </p> 
