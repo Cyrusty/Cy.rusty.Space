@@ -23,12 +23,7 @@ $txt = "<a href='https://www.organicdesign.co.nz/User:Cyrusty'>this link</a>";
 echo "I post my latest lessons to $txt";
 
 $x = "NARAN";
-echo "$x $x $x $x $x";
-
-$num = 963;
-$num2 = $num * 2;
-echo $num * $num + $num;
-echo "     $num2";
+echo "$x $x $x $x $x $x $x $x $x $x $x $x $x $x $x" . str_word_count("NARAN");
 ?>
 
 <!-- a comment for naran naran if he ever reads it -->
