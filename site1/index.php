@@ -24,7 +24,7 @@ $txt = "<a href='https://www.organicdesign.co.nz/User:Cyrusty'>this link</a>";
 $x = "NARAN";
 echo "I post my latest lessons to $txt " . "$x $x $x $x $x $x $x $x $x $x $x $x $x $x $x " . "<strong>how do I get a complete word count of my NARANS without typing all of them in...</strong>";
 echo "<br>";
-echo str_word_count($str)("NARAN");
+echo str_word_count("NARAN");
 echo "<br>";
 $y = "I cant sort find out how to make the IP <b>BOLD</b>!!";
 echo "<br>";
