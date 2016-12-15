@@ -25,7 +25,7 @@ echo "I post my latest lessons to $txt " . "$x $x $x $x $x $x $x $x $x $x $x $x 
 echo "<br>";
 $y = "I cant sort find out how to make the IP <b>BOLD</b>!!";
 echo "<br>";
-echo "$x + $y + $x";
+echo "$x $y $x";
 ?>
 
 <!-- a comment for naran naran if he ever reads it -->
