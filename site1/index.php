@@ -20,10 +20,8 @@ echo "Your IP address is " . $_SERVER ['REMOTE_ADDR'];
 check this link out <a href="http://www.organicdesign.co.nz"> OD </a>  </p> 
 <?php
 $txt = "<a href='https://www.organicdesign.co.nz/User:Cyrusty'>this link</a>";
-echo "I post my latest lessons to $txt ";
-
 $x = "NARAN";
-echo "$x $x $x $x $x $x $x $x $x $x $x $x $x $x $x" . str_word_count("$x $x $x $x $x $x $x $x $x $x $x $x $x $x $x");
+echo "I post my latest lessons to $txt " . "$x $x $x $x $x $x $x $x $x $x $x $x $x $x $x";
 ?>
 
 <!-- a comment for naran naran if he ever reads it -->
