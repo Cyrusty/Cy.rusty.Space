@@ -18,8 +18,8 @@ echo "Your IP address is <strong>" . $_SERVER ['REMOTE_ADDR'] . "</strong>";
 
 echo "<br>";
 
-echo "<p>" . " Today is " . date("l d/m/Y") . "<span style='color:yellow;'>" . date(" h:i:sa") . "</span style='color:yellow;'>";
-"</p>" ?>
+echo " Today is " . date("l d/m/Y") . "<span style='color:yellow;'>" . date(" h:i:sa") . "<style='color:yellow;'>" . "</span>";
+?>
 
 <p style="color:maroon;"> yo yo yo this is another test edit using the W3school tutorials I'm working on
 check this link out <a href="http://www.organicdesign.co.nz"> OD </a>  </p> 
