@@ -16,9 +16,7 @@
 <?php
 echo "Your IP address is <strong>" . $_SERVER ['REMOTE_ADDR'] . "</strong>";
 
-echo "<br>";
-
-echo " Today is " . date("l d/m/Y") . "<span style='color:yellow;'>" . date(" h:i:sa") . "</span>";
+echo "<p>" . " Today is " . date("l d/m/Y") . "<span style='color:yellow;'>" . date(" h:i:sa") . "</span>" . "</p>";
 ?>
 
 <p style="color:maroon;"> yo yo yo this is another test edit using the W3school tutorials I'm working on
