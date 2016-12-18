@@ -37,10 +37,6 @@ echo "<br>";
 echo str_word_count("NARAN");
 ?>
 
-<!-- a comment for naran naran if he ever reads it -->
-<p>
-     Goodmorning, good afternoon and goodnight </p>
-
 <p><em>Thank you for using debian and nginx AND REMOVING WINDOWS piece of shiat.</em></p>
 
 <?php
@@ -58,5 +54,6 @@ if ($t < "10") {
 ?> 
 
 
+<!-- a comment for naran naran if he ever reads it -->
 </body>
 </html>
