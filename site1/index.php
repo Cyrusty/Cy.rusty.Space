@@ -14,9 +14,11 @@
 <body>
 <h1>Welcome to nginx on Debian Cyrustys site 1!!</h1>
 <?php
+// This shows the visitors IP and puts it in bold text.
 echo "Your IP address is <strong>" . $_SERVER ['REMOTE_ADDR'] . "</strong>";
 
-echo "<p>" . " Today is " . date("l d/m/Y") . "<span style='color:yellow;'>" . date(" h:i:sa") . "</span></p>";
+// This will show todays date and time, the time will be in yellow colour.
+echo "<p> Today is " . date("l d/m/Y") . "<span style='color:yellow;'>" . date(" h:i:sa") . "</span></p>";
 ?>
 
 <p style="color:maroon;"> yo yo yo this is another test edit using the W3school tutorials I'm working on
@@ -24,14 +26,20 @@ check this link out <a href="http://www.organicdesign.co.nz"> OD </a>  </p>
 
 
 <?php
+// The main heading.
 echo "<h2>PHP wtf PHP arrrrghhhh</h2>";
 
+// These are some variables I made.
 $txt = "<a href='https://www.organicdesign.co.nz/User:Cyrusty'>this link</a>";
 $x = "NARAN";
+
+// this will paste my variables I made above when entered.
 echo "I post my latest lessons to $txt " . "$x $x $x $x $x $x $x $x $x $x $x $x $x $x $x "
  . "<strong>how do I get a complete word count of my NARANS without typing all of them in...</strong>";
 
+// Creates a line break.
 echo "<br>";
+// Counts the words "Naran"
 echo str_word_count("NARAN");
 ?>
 
