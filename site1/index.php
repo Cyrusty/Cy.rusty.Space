@@ -13,10 +13,12 @@
 </head>
 <body>
 <h1>Welcome to nginx on Debian Cyrustys site 1!!</h1>
-<?php
-// This shows the visitors IP and puts it in bold text.
-echo "Your IP address is <strong>" . $_SERVER ['REMOTE_ADDR'] . "</strong>";
 
+<Your IP address is <strong><?php
+//This is the visitors IP
+echo $_SERVER ['REMOTE_ADDR'] . "<a href='http://ipinfo.io'> Visitors IP location link </a>"; ?></strong>
+
+<?php
 // This will show todays date and time, the time will be in yellow colour.
 echo "<p> Today is " . date("l d/m/Y") . "<span style='color:yellow;'>" . date(" h:i:sa") . "</span></p>";
 ?>
