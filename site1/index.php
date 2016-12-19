@@ -25,10 +25,9 @@ echo "<p> Today is " . date("l d/m/Y") . "<span style='color:yellow;'>" . date("
 check this link out <a href="http://www.organicdesign.co.nz"> OD </a>  </p> 
 
 
-<?php
-// The main heading.
-echo "<h2>PHP wtf PHP arrrrghhhh</h2>";
+<h2>PHP wtf PHP arrrrghhhh</h2>
 
+<?php
 // These are some variables I made.
 $txt = "<a href='https://www.organicdesign.co.nz/User:Cyrusty'>this link</a>";
 $x = "NARAN";
