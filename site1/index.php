@@ -14,10 +14,11 @@
 <body>
 <h1>Welcome to nginx on Debian Cyrustys site 1!!</h1>
 
-<!-- This is the visitors IP and a link to their IP location -->
-<Your IP address is ><strong>
+
 	<?php
-echo $_SERVER ['REMOTE_ADDR'] . "</strong>" . "<a href='http://ipinfo.io/1.2.3.4'> 1.2.3.4 </a>"; ?>
+	// <p>Your IP address is <strong><a href='http://ipinfo.io/1.2.3.4'> 1.2.3.4 </a></strong></p>
+	echo "<p>" . "Your Ip address is " . "<strong>" . $_SERVER ['REMOTE_ADDR'] . "</strong>"
+	 . "<a href='http://ipinfo.io/1.2.3.4'> 1.2.3.4 </a>" . "</p>"; ?>
 
 <?php
 // This will show todays date and time, the time will be in yellow colour.
