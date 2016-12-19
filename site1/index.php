@@ -17,7 +17,7 @@
 <!-- This is the visitors IP and a link to their IP location -->
 <Your IP address is ><strong>
 	<?php
-echo $_SERVER ['REMOTE_ADDR'] . "</strong>" . "<a href='http://ipinfo.io/1.2.3.4'> You're IP </a>"; ?>
+echo $_SERVER ['REMOTE_ADDR'] . "</strong>" . "<a href='http://ipinfo.io/1.2.3.4'> 1.2.3.4 </a>"; ?>
 
 <?php
 // This will show todays date and time, the time will be in yellow colour.
