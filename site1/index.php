@@ -19,7 +19,7 @@
 	// <p>Your IP address is <strong><a href='http://ipinfo.io/1.2.3.4'> 1.2.3.4 </a></strong></p>
 	echo  "<p> Your IP address is <strong> <a href='http://ipinfo.io/" . $_SERVER ['REMOTE_ADDR'] . "'> " 
 	. $_SERVER ['REMOTE_ADDR'] . " </a></strong></p>";
-	//"<p> Your Ip address is <strong>" . $_SERVER ['REMOTE_ADDR'] . "</strong> 
+	//"<p> Your Ip address is <strong>" . $_SERVER ['REMOTE_ADDR'] . "</strong> ?>
 
 <?php
 // This will show todays date and time, the time will be in yellow colour.
