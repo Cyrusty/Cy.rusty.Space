@@ -64,13 +64,13 @@ echo str_word_count("NARAN");
 $t = date("H");
 
 if ($t < "10") {
-    echo "<big>" . "<p style='color:yellow;'>" . "HAVE A GOOD MORNING!!" . "</p>" . "</big>";
+    echo "<big><p style='color:yellow;'>" . "HAVE A GOOD MORNING!!" . "</p></big>";
 
 } elseif ($t < "20") {
-    echo "<i>" . "<big>" . "<span style='color:blue;'>" . "HAVE A GOOD DAY!!" . "</span>" . "</big>" . "</i>";
+    echo "<i><big><span style='color:blue;'>" . "HAVE A GOOD DAY!!" . "</span></big></i>";
 
 } else {
-    echo "<big>" . "<p style='color:darkorange;'>" . "HAVE A GOOD NIGHT!!" . "</p>" . "</big>";
+    echo "<big><p style='color:darkorange;'>" . "HAVE A GOOD NIGHT!!" . "</p></big>";
 }
 ?> 
 
