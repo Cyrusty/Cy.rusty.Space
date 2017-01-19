@@ -9,6 +9,17 @@
         margin: 0 auto;
         font-family: Tahoma, Verdana, Arial, sans-serif;
     }
+
+h1 {
+        color: green;
+        }
+
+h2 {
+        background-color: black;
+        color: yellow;
+        }
+
+
 </style>
 </head>
 <body>
