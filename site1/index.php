@@ -18,7 +18,15 @@ h2 {
         background-color: black;
         color: yellow;
         }
+        
+p.morning {
+	color: yellow;
+	font-size: 120;
+}
 
+p.day {
+	
+	
 
 </style>
 </head>
@@ -64,13 +72,19 @@ echo str_word_count("NARAN");
 $t = date("H");
 
 if ($t < "10") {
-    echo "<big><p style='color:yellow;'>HAVE A GOOD MORNING!!</p></big>";
+	//"<big><p style='color:yellow;'>HAVE A GOOD MORNING!!</p></big>";
+    echo "<p class='morning'>HAVE A GOOD MORNING!!</p>";
+    //"<big><p style='color:yellow;'>HAVE A GOOD MORNING!!</p></big>";
 
 } elseif ($t < "20") {
-    echo "<i><big><span style='color:blue;'>HAVE A GOOD DAY!!</span></big></i>";
+	//"<i><big><span style='color:blue;'>HAVE A GOOD DAY!!</span></big></i>"
+    echo "<p class='day'>HAVE A GOOD DAY!!</p>";
+    //"<i><big><span style='color:blue;'>HAVE A GOOD DAY!!</span></big></i>"
 
 } else {
-    echo "<big><p style='color:darkorange;'>HAVE A GOOD NIGHT!!</p></big>";
+	//"<big><p style='color:darkorange;'>HAVE A GOOD NIGHT!!</p></big>"
+    echo "<p class='night'>HAVE A GOOD NIGHT!!</p>";
+    //"<big><p style='color:darkorange;'>HAVE A GOOD NIGHT!!</p></big>"
 }
 ?> 
 
