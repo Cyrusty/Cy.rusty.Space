@@ -25,9 +25,14 @@ p.morning {
 }
 
 p.day {
-	
-	
+	color: blue;
+	font-size: 120;
+}
 
+p.night {
+	color: red;
+	font-size: 120;
+}
 </style>
 </head>
 <body>
@@ -46,7 +51,7 @@ echo "<p> Today is " . date("l d/m/Y") . "<span style='color:yellow;'>" . date("
 ?>
 
 <p style="color:maroon;"> yo yo yo this is another test edit using the W3school tutorials I'm working on
-check this link out <a href="http://www.organicdesign.co.nz"> OD </a>  </p> 
+check this link out <a href="http://www.organicdesign.co.nz"> OD </a></p> 
 
 
 <h2>PHP wtf PHP arrrrghhhh</h2>
@@ -57,16 +62,19 @@ $txt = "<a href='https://www.organicdesign.co.nz/User:Cyrusty'>this link</a>";
 $x = "NARAN";
 
 // this will paste my variables I made above when entered.
-echo "I post my latest lessons to $txt " . "$x $x $x $x $x $x $x $x $x $x $x $x $x $x $x "
- . "<strong>how do I get a complete word count of my NARANS without typing all of them in...</strong>";
-
+echo "I post my latest lessons to $x @ $txt";
 // Creates a line break.
 echo "<br>";
-// Counts the words "Naran"
+// Counts the words "NARAN"
 echo str_word_count("NARAN");
 ?>
 
-<a href="http://gaiafm.stationplaylist.com">GaiaFM awesome chill beats/feng shui</a>
+
+<br>
+<br>
+<a style="color:green;" a href="http://gaiafm.stationplaylist.com">GaiaFM Great Chill Beats/Feng Shui
+</a>
+<br>
 
 <?php
 $t = date("H");
