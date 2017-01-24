@@ -66,7 +66,7 @@ echo "<br>";
 echo str_word_count("NARAN");
 ?>
 
-<p><em>Thank you for using debian and nginx AND REMOVING WINDOWS piece of shiat.</em></p>
+<a href="http://gaiafm.stationplaylist.com">GaiaFM awesome chill beats/feng shui</a>
 
 <?php
 $t = date("H");
