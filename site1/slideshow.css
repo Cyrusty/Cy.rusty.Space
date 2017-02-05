@@ -32,3 +32,10 @@
 .image-slider .thumbs img {
 	margin: 5px 5px 0 0;
 }
+
+#butterflies {
+	padding-top: 50px;
+}
+#caterpillars .is-prev, #caterpillars .is-next {
+    color: yellow;
+}
