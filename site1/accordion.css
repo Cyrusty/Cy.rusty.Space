@@ -1,6 +1,6 @@
  /* Style the buttons that are used to open and close the accordion panel */
 button.accordion {
-    background-color: #eee;
+    background-color: #hhhff;
     color: #444;
     cursor: pointer;
     padding: 18px;
@@ -19,6 +19,9 @@ button.accordion.active, button.accordion:hover {
 /* Style the accordion panel. Note: hidden by default */
 div.panel {
     padding: 0 18px;
-    background-color: white;
+    background-color: yellow;
     display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
 }
